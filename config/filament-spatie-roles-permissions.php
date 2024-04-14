@@ -13,7 +13,7 @@ return [
 
     'navigation_section_group' => 'filament-spatie-roles-permissions::filament-spatie.section.roles_and_permissions', // Default uses language constant
 
-    'team_model' => \App\Models\Team::class,
+    // 'team_model' => \App\Models\Team::class,
 
     'scope_to_tenant' => true,
 
@@ -58,8 +58,8 @@ return [
      * Icons to use for navigation
      */
     'icons' => [
-        'role_navigation' => 'heroicon-o-lock-closed',
-        'permission_navigation' => 'heroicon-o-lock-closed',
+        'role_navigation' => 'heroicon-o-user-group',
+        'permission_navigation' => 'heroicon-o-key',
     ],
 
     /*
